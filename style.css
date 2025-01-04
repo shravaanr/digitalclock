@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+height: 100vh;
+justify-content: center;
+background-size: cover;
+
+background-color: #0d0a0b;
+background-image: linear-gradient(315deg, #0d0a0b 0%, #009fc2 74%);
+
+overflow: hidden;}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size :35px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+}
+.clock{
+    display: flex;
+}
+.clock div{
+    margin: 10px;
+    position: relative;
+
+}
+.clock span{
+    width:220px;
+    height: 80px;
+    background: white;
+    border-radius: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+font-size: 40px;
+border-radius:10px ;
+}
+.clock .text{
+    height: 70px;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
